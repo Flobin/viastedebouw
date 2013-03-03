@@ -1,0 +1,367 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"n",
+				"n"
+			],
+			[
+				"col_",
+				"col_total_width"
+			],
+			[
+				"col",
+				"col_margin"
+			],
+			[
+				"custom",
+				"custom-fields"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"row",
+				"row-fluid"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contr",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: install package",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/poopies/style.css",
+		"/C/Program Files/EasyPHP-12.1/www/other websites/omgevingupgrade/sass/liquid-slider-1.1.css",
+		"/C/Users/s072264/AppData/Local/Temp/7zO3CE1.tmp/liquid-slider-1.1.css",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/poopies/languages/readme.txt",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/poopies/single.php",
+		"/C/Users/s072264/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/C/Users/s072264/Dropbox/20e via-bestuur/3. Promotie/hALV uitnodiging/index.html",
+		"/E/Desktop/TBD/index.php",
+		"/E/Desktop/configuration.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/RCB/js/codaslider.html",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/RCB/codaslider.css",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/RCB/js/jquery.coda-slider-3.0.js",
+		"/C/Users/s072264/Dropbox/Public/slideythingtest.html",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/RCB/js/jquery.blueberry.js",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/RCB/blueberry.css",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/RCB/js/blueberry.html",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/RCB/js/index.htm",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/RCB/sliderstyle.css",
+		"/C/Users/s072264/AppData/Local/Temp/7zO18F6.tmp/style.css",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/twentytwelve/style.css",
+		"/C/Program Files/EasyPHP-12.1/www/other shit/robinberghuijs.com (nederlands).sublime-project",
+		"/C/Users/s072264/Dropbox/Public/index.html",
+		"/C/Users/s072264/AppData/Roaming/Sublime Text 2/Packages/Prefixr/Default (Windows).sublime-keymap",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/twentytwelve-child/customhomepage.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/twentytwelve/page-templates/home.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/twentytwelve/functions.php",
+		"/E/Downloads/Joomla2WordPress/wp-config-sample.php",
+		"/E/Downloads/Joomla2WordPress/index.php",
+		"/E/Documents/lamahange/lamahange 2012/.htaccess1",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/twentytwelve/header.php",
+		"/E/Downloads/Joomla2WordPress/config.php",
+		"/E/Downloads/wordpress.2012-09-27.xml",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/twentytwelve-child/wp-settings.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/twentytwelve/page.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/bones/library/scss/_481up.scss",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/bones/library/bones.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/bones/library/style/style.css",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/bones/functions.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/bones/library/js/flexslider.css",
+		"/E/Downloads/nested.less",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/bones/library/scss/_1030up.scss",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/bones/library/scss/_1240up.scss",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/bones/page.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/bones/page-custom.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/bones/library/js/jquery.slabtext.js",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/bones/library/scss/_grid.scss",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/bones/library/scss/_base.scss",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/bones/library/scss/_normalize.scss",
+		"/C/Users/s072264/AppData/Local/Temp/Rar$DI38.016/grid.scss",
+		"/C/Program Files/EasyPHP-12.1/www/less/style.less",
+		"/C/Program Files/EasyPHP-12.1/www/js/jquery.stellar.js",
+		"/C/Program Files/EasyPHP-12.1/www/index.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/toolbox/content.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/toolbox/style.css",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120822172516/wp-content/themes/toolbox/portfolio-page.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120822172516/wp-content/themes/toolbox/style.less",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120822172516/wp-content/themes/toolbox/functions.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120822172516/wp-content/themes/toolbox/content-single.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/other websites/wordpress/wp-content/themes/ucbmun/index.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/other websites/wordpress/wp-content/themes/ucbmun/less/normalize.less",
+		"/C/Program Files/EasyPHP-5.3.9/www/other websites/wordpress/wp-content/themes/ucbmun/style.css",
+		"/C/Program Files/EasyPHP-5.3.9/www/other websites/wordpress/wp-content/themes/ucbmun/functions.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/other websites/wordpress/wp-content/themes/ucbmun/header.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/other websites/wordpress/wp-content/themes/ucbmun/js/jquery.sticky.js",
+		"/C/Program Files/EasyPHP-5.3.9/www/other websites/wordpress/wp-content/themes/ucbmun/js/background-image.js",
+		"/C/Program Files/EasyPHP-5.3.9/www/other websites/wordpress/wp-content/themes/ucbmun/less/style.less",
+		"/C/Users/s072264/AppData/Local/Temp/Rar$DI25.016/index.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/en/index.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/less/style2.less",
+		"/C/Program Files/EasyPHP-5.3.9/www/css/normalize.css",
+		"/C/Program Files/EasyPHP-5.3.9/www/less/style.less",
+		"/C/Program Files/EasyPHP-5.3.9/www/en/processForm.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/en/uitnodiging.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/en/fotografie.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/en/madrid.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/en/event.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/index.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/css/style.css",
+		"/C/Program Files/EasyPHP-5.3.9/www/fonts/museosans/stylesheet.css",
+		"/C/Users/s072264/AppData/Local/Temp/Rar$DI99.488/style.css",
+		"/C/Users/s072264/AppData/Local/Temp/Rar$DI66.600/stylesheet.css",
+		"/C/Users/s072264/AppData/Local/Temp/Rar$DI89.264/stylesheet.css",
+		"/C/Program Files/EasyPHP-5.3.9/www/event.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/fotografie.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/madrid.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/uitnodiging.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/processForm.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/css/jquery.fancybox.css",
+		"/C/Users/s072264/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/s072264/AppData/Local/Temp/Rar$DI01.712/stylesheet.css",
+		"/C/Program Files/EasyPHP-5.3.9/www/js/jquery.flexslider-min.js",
+		"/C/Program Files/EasyPHP-5.3.9/www/less/grid.less",
+		"/C/Program Files/EasyPHP-5.3.9/www/js/bootstrap-carousel.js",
+		"/C/Program Files/EasyPHP-5.3.9/www/css/bootstrap-reset.css",
+		"/C/Program Files/EasyPHP-5.3.9/www/contact.html",
+		"/C/Program Files/EasyPHP-5.3.9/www/fonts/texgyre/stylesheet.css",
+		"/C/Program Files/EasyPHP-5.3.9/www/js/contactscript.js",
+		"/C/Program Files/EasyPHP-5.3.9/www/contact.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/meta.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/process.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/css/bootstrap-responsive.css",
+		"/C/Program Files/EasyPHP-5.3.9/www/js/jquery.anchor.js",
+		"/C/Program Files/EasyPHP-5.3.9/www/js/jquery.stellar.js",
+		"/C/Program Files/EasyPHP-5.3.9/www/css/grid.less",
+		"/C/Program Files/EasyPHP-5.3.9/www/css/style.less",
+		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/css/reset.css",
+		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/css/bootstrap-responsive.css",
+		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/css/style.css",
+		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/index.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/contact.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/werk.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/footer.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/header.php",
+		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/css/old.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font-family",
+			"default",
+			"psign",
+			"src=\"img/",
+			"images",
+			"font-weight",
+			"wrapper",
+			"img",
+			"21759b",
+			"open",
+			"google",
+			"widget-area",
+			"main",
+			"menu-t",
+			"position",
+			"404",
+			"header-",
+			"media",
+			"head",
+			"style",
+			"head",
+			"style",
+			"; ",
+			"80",
+			"title",
+			"marker",
+			"markerline",
+			"display:none",
+			"nav",
+			"body",
+			"#000",
+			".markerline",
+			"font-size",
+			"400",
+			"300",
+			"marker",
+			"; ",
+			"werk",
+			"markerline",
+			"marker",
+			"markerline",
+			"marker",
+			"margin",
+			"uitleg",
+			".border-radius",
+			"text-align",
+			"description",
+			".box",
+			"intro",
+			"linen",
+			"box-shadow",
+			"uitleg",
+			"html",
+			"cent",
+			"h2",
+			"bluehover",
+			"transition",
+			"markerline",
+			"margin",
+			"container",
+			"form"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Program Files/EasyPHP-5.3.9/www/other shit/robinberghuijs.com (nederlands).sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 165.0,
+	"status_bar_visible": true
+}
