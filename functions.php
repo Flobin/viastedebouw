@@ -133,8 +133,8 @@ function viastedebouw_widgets_init() {
 	    'after_title' => '</h2>',
   	) );
   	register_sidebar( array(
-	    'name' => __( 'frontpage-bottom', 'viastedebouw' ),
-	    'id' => 'frontpage-bottom',
+	    'name' => __( 'frontpage-side', 'viastedebouw' ),
+	    'id' => 'frontpage-side',
 	    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 	    'after_widget' => '</aside>',
 	    'before_title' => '<h2 class="widget-title">',
@@ -147,7 +147,7 @@ add_action( 'widgets_init', 'viastedebouw_widgets_init' );
  * Enqueue scripts and styles
  */
 function viastedebouw_scripts() {
-	wp_enqueue_style( 'style', get_stylesheet_uri() );
+	wp_enqueue_style( 'style', get_template_directory_uri().'/stylesheets/style.css' );
 
 	wp_enqueue_script( 'navigation', get_template_directory_uri() . '/js/navigation.js', null, '20120206', true );
 

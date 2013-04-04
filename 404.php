@@ -13,11 +13,11 @@ get_header(); ?>
 
 			<article id="post-0" class="post error404 not-found">
 				<header class="entry-header">
-					<h1 class="entry-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'viastedebouw' ); ?></h1>
+					<h1 class="entry-title"><?php _e( 'Oeps! Die pagina kon niet gevonden worden.', 'viastedebouw' ); ?></h1>
 				</header><!-- .entry-header -->
 
 				<div class="entry-content">
-					<p><?php _e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'viastedebouw' ); ?></p>
+					<p><?php _e( 'Het lijkt erop dat hier niets is gevonden. Misschien kunnen de links hieronder of de zoekfunctie helpen?', 'viastedebouw' ); ?></p>
 
 					<?php get_search_form(); ?>
 

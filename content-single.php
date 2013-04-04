@@ -21,7 +21,7 @@
 
 	<footer class="entry-meta">
 		<?php
-			/* translators: used between list items, there is a space after the comma */
+			/* translators: used between list items, there is a space after the comma 
 			$category_list = get_the_category_list( __( ', ', 'viastedebouw' ) );
 
 			/* translators: used between list items, there is a space after the comma */
@@ -45,13 +45,13 @@
 
 			} // end check for categories on this blog
 
-			printf(
+			/*printf(
 				$meta_text,
 				$category_list,
 				$tag_list,
 				get_permalink(),
 				the_title_attribute( 'echo=0' )
-			);
+			);*/
 		?>
 
 		<?php edit_post_link( __( 'Edit', 'viastedebouw' ), '<span class="edit-link">', '</span>' ); ?>

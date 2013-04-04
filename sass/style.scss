@@ -29,7 +29,10 @@ and Blueprint http://www.blueprintcss.org/
 
 /* =SCSS variables
 -------------------------------------------------------------- */
+$viared: #ED1A21; /*#F02311*/
 $darkred: #D90A0A;
+$regular: "Gill Sans", "Gill Sans MT", 'Cabin', Verdana, Tahoma, sans-serif;
+$condensed: "Gill Sans Condensed", "Gill Sans MT Condensed", 'Cabin Condensed',  sans-serif;
 
 
 /* =SCSS mixins
@@ -44,7 +47,6 @@ $darkred: #D90A0A;
 	-webkit-box-shadow: $shadow-x $shadow-y $shadow-radius $shadow-spread rgba(0, 0, 0, $shadow-opacity);
 	-moz-box-shadow: $shadow-x $shadow-y $shadow-radius $shadow-spread rgba(0, 0, 0, $shadow-opacity);
 	box-shadow: $shadow-x $shadow-y $shadow-radius $shadow-spread rgba(0, 0, 0, $shadow-opacity);
-	margin-bottom: 1rem;
 }
 
 /* =GRID SETUP
@@ -63,7 +65,7 @@ input,
 select,
 textarea {
 	/*color: #404040;*/
-	font-family: 'Open Sans', "Gill Sans", "Gill Sans MT", 'Cabin', Verdana, Tahoma, sans-serif;
+	font-family: $regular; 
 	/*font-size: 14px;
 	font-size: 1.4rem;
 	line-height: 1.5;*/
@@ -71,6 +73,8 @@ textarea {
 
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
+	font-family: $condensed;
+	font-weight: 300;
 	clear: both;
 }
 hr {
@@ -273,7 +277,7 @@ textarea {
 
 /* Links */
 a {
-	color: #ff0000;
+	color: $viared;
 	text-decoration: none;
 }
 a:visited {
@@ -282,7 +286,8 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-	color: $darkred;
+	background-color: $viared;
+	color: #fff;
 }
 
 /* Alignment */
@@ -309,22 +314,31 @@ a:active {
 	position: absolute !important;
 }
 
+/* Wordpress stats smily */
+img#wpstats{
+	width:0px;
+	height:0px;
+	overflow:hidden
+}
+
 /* =Header
 ----------------------------------------------- */
 h1.site-title {
+	font-family: $regular;
 	a {
 		&:visited {
-			color: #f00;
+			color: $viared;
 		}
 		&:hover {
-			color: $darkred;
+			color: #fff;
+			background-color:$viared;
 		}
 		text-decoration: none;
 	}
 }
 h2.site-description {
-	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 300;
+	font-family: $condensed;
 }
 
 
@@ -339,7 +353,6 @@ h2.site-description {
 .navigation-main ul {
 	list-style: none;
 	margin: 0;
-	padding-left: 0;
 }
 .navigation-main li {
 	float: left;
@@ -398,7 +411,14 @@ h2.site-description {
 	.main-small-navigation ul.nav-menu.toggled-on {
 		display: block;
 	}
-
+	.menu-toggle {
+		text-transform: lowercase;
+		color: #fff;
+		background-color: $viared;
+		padding: 0.5rem;
+		font-size: 3em;
+		margin: 0.5rem auto;
+	}
 	.navigation-main ul {
 		display: none;
 	}
@@ -557,20 +577,43 @@ object {
 
 /* Search widget */
 .widget_search .submit {
-	display: none;
+	/*display: none;*/
 }
 
-.widget-title {
-	font-family: 'Open Sans Condensed', sans-serif;
+input[type="search"], #s {
+	margin: 1rem;
+}
+
+.widget-title, .widget-title a {
+	font-family: $condensed;
 	font-weight: 300;
-	background-color: #f00;
+	background-color: $viared;
 	color: #fff;
+}
+.widget-title {
 	padding: 1rem;
 }
-#frontpage-bottom .widget > div, #frontpage-bottom .widget > ul {
+#frontpage-side .widget > div, #frontpage-side .widget > ul, #secondary .widget > div, #secondary .widget > ul, #secondary .widget > form, #frontpage-top .widget p {
 	padding: 1rem;
 }
 
+/* facebook */
+.pluginSkinLight {
+	margin: 0 auto!important;
+}
+
+/* twitter */
+ul.tweets {
+	li {
+		margin: 0.5rem 0;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+iframe.twitter-follow-button, span.label, #l {
+	margin: 0 1rem 1rem 1rem!important;
+}
 
 
 /* =Slides
@@ -595,25 +638,75 @@ object {
 
 /* =layout-all
 ----------------------------------------------- */
+footer#colophon {
+	margin-bottom: 1rem!important;
+	img.sponsor {
+		height: auto;
+		float: left;
+
+	}
+}
 
 
 /* =media queries
 ----------------------------------------------- */
-@media only screen and (min-width: 480px) {
-
-}
-
-@media only screen and (min-width: 768px) {
-
-}
-
-@media only screen and (min-width: 960px) {
+@media only screen and (max-width: 480px) {
 	body {
+		padding: 1rem;
+	}
+					.header-text {
+						h1 {
+							font-size: 2.5rem;
+						}
+						h2 {
+							font-size: 2rem;
+						}
+					}
+				#primary {
+					padding: 0 1rem;
+				}
+				#secondary {
+					@include column(12);
+					margin-bottom: 1rem;
+				}
+				#frontpage-side {
+					aside {
+						margin-bottom: 2rem;
+						h2.widget-title {
+							font-size: 2rem;
+						}
+					}
+				}
+				footer#colophon {
+					p {
+						font-family: $condensed;
+						font-weight: 300;
+						background-color: $viared;
+						color: #fff;
+						padding: 1rem;
+						font-size: 2rem;				
+					}
+					img.sponsor {
+						width: 98%;
+						margin: 0.5rem auto;
+					}
+				}
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 13px/1.4;
+	}
+
+}
+
+@media only screen and (min-width: 480px) {
+	body {
+		background-color: #fff;
 	}
 		#page{
 			/*@include container();*/
-			width: 85.72%;
-			max-width: 1200px;
+			width: 98%;
 			margin: 0 auto;
 		}
 			header#masthead {
@@ -621,7 +714,112 @@ object {
 			}
 				.banner {
 					@include column(12);
-					@include box(#fff,0,0px,#ccc,0px,3px,3px,3px,0px,0.3);
+					margin-top: 1rem;
+					overflow: auto;
+					margin-bottom: 1rem;
+					img {
+						width: 47.91667%%;
+						height: auto;
+						float: left;
+						/*@include column(2);
+						@include box(#fff,0,0,#ccc,0px,3px,3px,3px,0px,0.3);*/
+					}
+					.header-text {
+						float: right;
+						margin-left: 1.04167%;
+						width: 47.91667%%;
+						h1 {
+							font-size: 4rem;
+						}
+					}
+				}
+				nav#site-navigation {
+					.menu {
+						@include column(12);
+						margin-bottom: 1rem;
+						ul {
+							li {
+								a {
+									padding: 1rem;
+									display: inline-block;
+									&:hover {
+										color: #fff!important;
+										background-color: $viared;
+									}
+									&:visited {
+										color: $viared;
+									}
+								}
+							}
+						}
+					}
+				}
+			#main {
+
+			}
+				#frontpage-top {
+					.widget {
+						margin-bottom: 1rem!important;
+						@include column(8);
+					}					
+				}
+				.nosidebar #primary {
+					#content {
+						@include column(12);
+					}
+				}
+				#primary {
+					@include column(8);
+					margin-bottom: 1rem!important;
+					#content {
+						
+					}
+				}
+				#secondary {
+					@include column(4);
+					aside {
+						margin-bottom: 1rem!important;
+					}
+
+				}
+				#frontpage-side {
+					display: inline;
+					float: right;
+					width: 31.25%;
+					margin: 0 1.04167%;
+					aside {
+						margin-bottom: 1rem!important;
+					}
+				}
+			footer#colophon {
+				@include column(12);
+				margin-bottom: 1rem;
+				padding: 1rem;
+				img.sponsor {
+					width: 48%;
+					margin-right: 1%;
+					margin-left: 1%;
+				}
+			}
+}
+
+
+
+@media only screen and (min-width: 768px) {
+	body {
+		background-color: #eee!important;
+	}
+		#page{
+			/*@include container();*/
+			width: 98%;
+			margin: 0 auto;
+		}
+			header#masthead {
+
+			}
+				.banner {
+					@include box(#fff,0,0px,#ccc,0px,3px,3px,5px,0px,0.3);
+					margin-top: 1rem;
 					overflow: auto;
 					img {
 						width: 14.58333%;
@@ -633,54 +831,70 @@ object {
 					.header-text {
 						float: left;
 						margin-left: 1.04167%;
+						width: 81.25%;
+						padding-top: 0.5rem;
 					}
 				}
 				nav#site-navigation {
 					.menu {
-						@include column(12);
-						@include box(#fff,0,0px,#ccc,0px,3px,3px,3px,0px,0.3);
-						ul {
-							li {
-								a {
-									padding: 1rem;
-									display: inline-block;
-									&:hover {
-										color: #fff!important;
-										background-color: #f00;
-									}
-									&:visited {
-										color: #f00;
-									}
-								}
-							}
-						}
+						@include box(#fff,0,0px,#ccc,0px,3px,3px,5px,0px,0.3);
 					}
 				}
 			#main {
 
 			}
 				#frontpage-top {
-					@include column(12);
-					@include box(#fff,0,0px,#ccc,0px,3px,3px,3px,0px,0.3);
+					.widget {
+						@include box(#fff,0,0px,#ccc,0px,3px,3px,5px,0px,0.3);	
+					}
 				}
 				#primary {
 					#content {
-						@include column(12);
-						@include box(#fff,1rem,0px,#ccc,0px,3px,3px,3px,0px,0.3);
+						@include box(#fff,1rem,0px,#ccc,0px,3px,3px,5px,0px,0.3);
 					}
 				}
-				#frontpage-bottom {
+				.nosidebar #primary {
+					#content {
+						margin-bottom: 1rem;
+					}
+				}
+				#secondary {
 					aside {
-						@include column(4);
-						@include box(#fff,0,0px,#ccc,0px,3px,3px,3px,0px,0.3);
+						@include box(#fff,0,0px,#ccc,0px,3px,3px,5px,0px,0.3);
+					}
+				}
+				#frontpage-side {
+					aside {
+						@include box(#fff,0,0px,#ccc,0px,3px,3px,5px,0px,0.3);
 					}
 				}
 			footer#colophon {
 				@include column(12);
-				@include box(#fff,1rem,1px,#ccc,0px,3px,3px,3px,0px,0.3);
+				@include box(#fff,1rem,0px,#ccc,0px,3px,3px,5px,0px,0.3);
+				img.sponsor {
+					width: 18%;
+					margin: 0 1%;
+				}
 			}
 }
 
+@media only screen and (min-width: 960px) {
+	#page{
+		/*@include container();*/
+		width: 85.72%;
+		max-width: 1200px;
+		min-width: 940px;
+		margin: 0 auto;
+	}
+	.header-text {
+		padding-top: 1rem;
+	}
+
+}
+
 @media only screen and (min-width: 1140px) {
+	.header-text {
+		padding-top: 2rem;
+	}
 
 }

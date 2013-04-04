@@ -17,6 +17,9 @@
 |                                                                     |
 +---------------------------------------------------------------------+
 */
+/*$alpha:	60;		//	60  = 18 × 3.3333*/
+/*$beta:	48;		//	48  = 18 × 2.6667*/
+/*$gamma:	36;		//	36  = 18 × 2*/
 /*
 $indent-val: 1.5em;
 */
@@ -32,12 +35,10 @@ $indent-val: 1.5em;
   unicode-range: U+270C;
 }
 
-/* line 270, ../sass/typeplate.scss */
 body {
   word-wrap: breakword;
 }
 
-/* line 274, ../sass/typeplate.scss */
 pre code {
   word-wrap: normal;
 }
@@ -51,12 +52,10 @@ pre code {
  * Extend this object into your custom stylesheet.
  *
  */
-/* line 385, ../sass/typeplate.scss */
 html {
-  font: normal 100%/1.5 serif;
+  font: normal 87.5%/1.5 serif;
 }
 
-/* line 389, ../sass/typeplate.scss */
 body {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -65,93 +64,79 @@ body {
   color: #444444;
 }
 
-/* line 405, ../sass/typeplate.scss */
 h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   margin-top: 0;
 }
 
-/* line 420, ../sass/typeplate.scss */
 .tera {
   font-size: 117px;
-  font-size: 7.3125rem;
-  margin-bottom: 0.20513rem;
+  font-size: 9.55102rem;
+  margin-bottom: 0.15705rem;
 }
 
-/* line 420, ../sass/typeplate.scss */
 .giga {
   font-size: 90px;
-  font-size: 5.625rem;
-  margin-bottom: 0.26667rem;
+  font-size: 7.34694rem;
+  margin-bottom: 0.20417rem;
 }
 
-/* line 420, ../sass/typeplate.scss */
 .mega {
   font-size: 72px;
-  font-size: 4.5rem;
-  margin-bottom: 0.33333rem;
+  font-size: 5.87755rem;
+  margin-bottom: 0.25521rem;
 }
 
-/* line 420, ../sass/typeplate.scss */
 .alpha, h1 {
-  font-size: 60px;
-  font-size: 3.75rem;
-  margin-bottom: 0.4rem;
+  font-size: 32px;
+  font-size: 2.61224rem;
+  margin-bottom: 0.57422rem;
 }
 
-/* line 420, ../sass/typeplate.scss */
 .beta, h2 {
-  font-size: 48px;
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
+  font-size: 30px;
+  font-size: 2.44898rem;
+  margin-bottom: 0.6125rem;
 }
 
-/* line 420, ../sass/typeplate.scss */
 .gamma, h3 {
-  font-size: 36px;
-  font-size: 2.25rem;
-  margin-bottom: 0.66667rem;
-}
-
-/* line 420, ../sass/typeplate.scss */
-.delta, h4 {
   font-size: 24px;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+  font-size: 1.95918rem;
+  margin-bottom: 0.76563rem;
 }
 
-/* line 420, ../sass/typeplate.scss */
-.epsilon, h5 {
+.delta, h4 {
   font-size: 21px;
-  font-size: 1.3125rem;
-  margin-bottom: 1.14286rem;
+  font-size: 1.71429rem;
+  margin-bottom: 0.875rem;
 }
 
-/* line 420, ../sass/typeplate.scss */
-.zeta, h6 {
+.epsilon, h5 {
   font-size: 18px;
-  font-size: 1.125rem;
-  margin-bottom: 1.33333rem;
+  font-size: 1.46939rem;
+  margin-bottom: 1.02083rem;
 }
 
-/* line 438, ../sass/typeplate.scss */
+.zeta, h6 {
+  font-size: 16px;
+  font-size: 1.30612rem;
+  margin-bottom: 1.14844rem;
+}
+
 p + p {
   text-indent: 0em;
 }
 
-/* line 457, ../sass/typeplate.scss */
 pre code {
   white-space: -moz-pre-wrap;
   white-space: pre-wrap;
 }
 
-/* line 462, ../sass/typeplate.scss */
 pre {
   white-space: pre;
 }
 
-/* line 466, ../sass/typeplate.scss */
 code {
   white-space: pre;
   font-family: monospace;
@@ -165,19 +150,16 @@ code {
  * Extend this object into your markup.
  *
  */
-/* line 483, ../sass/typeplate.scss */
 abbr {
   font-variant: small-caps;
   font-weight: 600;
   text-transform: lowercase;
   color: gray;
 }
-/* line 485, ../sass/typeplate.scss */
 abbr:hover {
   cursor: help;
 }
 
-/* line 499, ../sass/typeplate.scss */
 h1,
 h2,
 h3,
@@ -198,23 +180,19 @@ h6 {
  * Extend this object into your markup.
  *
  */
-/* line 326, ../sass/typeplate.scss */
 .lining dt,
 .lining dd {
   display: inline;
   margin: 0;
 }
-/* line 333, ../sass/typeplate.scss */
 .lining dt + dt:before,
 .lining dd + dt:before {
   content: "\A";
   white-space: pre;
 }
-/* line 341, ../sass/typeplate.scss */
 .lining dd + dd:before {
   content: ", ";
 }
-/* line 345, ../sass/typeplate.scss */
 .lining dd:before {
   content: ": ";
   margin-left: -0.2rem;
@@ -231,22 +209,18 @@ h6 {
  * Extend this object into your markup.
  *
  */
-/* line 353, ../sass/typeplate.scss */
 .dictionary-style dt {
   display: inline;
   counter-reset: definitions;
 }
-/* line 357, ../sass/typeplate.scss */
 .dictionary-style dt + dt:before {
   content: ", ";
   margin-left: -0.2rem;
 }
-/* line 363, ../sass/typeplate.scss */
 .dictionary-style dd {
   display: block;
   counter-increment: definitions;
 }
-/* line 366, ../sass/typeplate.scss */
 .dictionary-style dd:before {
   content: counter(definitions, decimal) ". ";
 }
@@ -261,30 +235,25 @@ h6 {
  * Extend this object into your markup.
  *
  */
-/* line 551, ../sass/typeplate.scss */
 .stats-tabs {
   padding: 0;
 }
-/* line 553, ../sass/typeplate.scss */
 .stats-tabs li {
   display: inline-block;
   margin: 0 0.625rem 0 0;
   padding: 0 0.625rem 0 0;
   border-right: 0.125rem solid #cccccc;
 }
-/* line 558, ../sass/typeplate.scss */
 .stats-tabs li:last-child {
   margin: 0;
   padding: 0;
   border: none;
 }
-/* line 563, ../sass/typeplate.scss */
 .stats-tabs li a {
   display: inline-block;
   font-size: 1.5rem;
   font-weight: bold;
 }
-/* line 567, ../sass/typeplate.scss */
 .stats-tabs li a b {
   display: block;
   margin: 0.125rem 0 0 0;
@@ -317,25 +286,21 @@ h6 {
  * Extend this object into your custom stylesheet.
  *
  */
-/* line 647, ../sass/typeplate.scss */
 .pull-quote {
   position: relative;
   padding: 1em;
 }
-/* line 629, ../sass/typeplate.scss */
 .pull-quote:before, .pull-quote:after {
   height: 1em;
   opacity: 0.15;
   position: absolute;
   font-size: 4em;
 }
-/* line 635, ../sass/typeplate.scss */
 .pull-quote:before {
   content: '“';
   top: 0em;
   left: 0em;
 }
-/* line 640, ../sass/typeplate.scss */
 .pull-quote:after {
   content: '”';
   bottom: 0em;

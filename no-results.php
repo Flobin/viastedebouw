@@ -11,7 +11,7 @@
 
 <article id="post-0" class="post no-results not-found">
 	<header class="entry-header">
-		<h1 class="entry-title"><?php _e( 'Nothing Found', 'viastedebouw' ); ?></h1>
+		<h1 class="entry-title"><?php _e( 'Geen Resultaten', 'viastedebouw' ); ?></h1>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -21,12 +21,12 @@
 
 		<?php elseif ( is_search() ) : ?>
 
-			<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'viastedebouw' ); ?></p>
+			<p><?php _e( 'Sorry, maar we hebben niks kunnen vinden met die term. Probeer het eens met andere zoekwoorden.', 'viastedebouw' ); ?></p>
 			<?php get_search_form(); ?>
 
 		<?php else : ?>
 
-			<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'viastedebouw' ); ?></p>
+			<p><?php _e( 'Het lijkt erop dat we dit niet hebben kunnen vinden. Misschien kan het helpen om te zoeken.', 'viastedebouw' ); ?></p>
 			<?php get_search_form(); ?>
 
 		<?php endif; ?>

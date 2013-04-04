@@ -17,6 +17,4 @@ Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
 along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 and Blueprint http://www.blueprintcss.org/
 */
-@import url(stylesheets/normalize.css);
-@import url(http://fonts.googleapis.com/css?family=Cabin:400,700,400italic,700italic|Cabin+Condensed:400,700);
 @import url(stylesheets/style.css);

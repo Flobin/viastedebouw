@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"list-",
+				"list-style-type"
+			],
+			[
 				"n",
 				"n"
 			],
@@ -35,6 +39,118 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 18778,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/sass/typeplate.scss",
+			"settings":
+			{
+				"buffer_size": 17126,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/header.php",
+			"settings":
+			{
+				"buffer_size": 2151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/functions.php",
+			"settings":
+			{
+				"buffer_size": 9858,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/sass/_normalize.scss",
+			"settings":
+			{
+				"buffer_size": 9303,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/footer.php",
+			"settings":
+			{
+				"buffer_size": 2441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/sidebar.php",
+			"settings":
+			{
+				"buffer_size": 937,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/frontpage.php",
+			"settings":
+			{
+				"buffer_size": 781,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/no-results.php",
+			"settings":
+			{
+				"buffer_size": 1179,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/searchform.php",
+			"settings":
+			{
+				"buffer_size": 704,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/404.php",
+			"settings":
+			{
+				"buffer_size": 1597,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/content.php",
+			"settings":
+			{
+				"buffer_size": 2596,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/content-single.php",
+			"settings":
+			{
+				"buffer_size": 2200,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/archive.php",
+			"settings":
+			{
+				"buffer_size": 3239,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -88,6 +204,30 @@
 	},
 	"file_history":
 	[
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/no-sidebar.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/search.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/content-page.php",
+		"/C/Users/s072264/Dropbox/20e VIA-bestuur/3. Promotie/wordpress/index.php",
+		"/C/Users/s072264/Dropbox/20e VIA-bestuur/3. Promotie/wp-config.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-config.php",
+		"/D/Downloads/Ekumenopolis/Ecumenopolis City Without Limits (2011) ENG.srt",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/archive.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/stylesheets/style.css",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/style.css",
+		"/E/Desktop/via_site_backup_2013-01-17/site/templates/rt_hyperion_j15/index.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/poopies/frontpage.php",
+		"/E/Desktop/TBD/rubygems.md",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/frontpage.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/index.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/single.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/page.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/no-results.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/content-single.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/sass/_grid.scss",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/sidebar.php",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/sass/grid.scss",
+		"/C/Program Files/EasyPHP-12.1/www/other websites/profoundgrid/README.md",
+		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/inc/custom-header.php",
 		"/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/poopies/style.css",
 		"/C/Program Files/EasyPHP-12.1/www/other websites/omgevingupgrade/sass/liquid-slider-1.1.css",
 		"/C/Users/s072264/AppData/Local/Temp/7zO3CE1.tmp/liquid-slider-1.1.css",
@@ -191,17 +331,7 @@
 		"/C/Program Files/EasyPHP-5.3.9/www/css/bootstrap-responsive.css",
 		"/C/Program Files/EasyPHP-5.3.9/www/js/jquery.anchor.js",
 		"/C/Program Files/EasyPHP-5.3.9/www/js/jquery.stellar.js",
-		"/C/Program Files/EasyPHP-5.3.9/www/css/grid.less",
-		"/C/Program Files/EasyPHP-5.3.9/www/css/style.less",
-		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/css/reset.css",
-		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/css/bootstrap-responsive.css",
-		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/css/style.css",
-		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/index.php",
-		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/contact.php",
-		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/werk.php",
-		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/footer.php",
-		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/header.php",
-		"/C/Program Files/EasyPHP-5.3.9/www/bootstrap/css/old.css"
+		"/C/Program Files/EasyPHP-5.3.9/www/css/grid.less"
 	],
 	"find":
 	{
@@ -219,6 +349,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"font-weight",
+			"-bottom",
+			"widget",
+			"font-family",
+			"viared",
+			"background-color",
+			"footer",
+			"last-child",
+			"header-text",
+			"font-properties",
+			"measure",
+			"font-size",
+			"f00",
+			"widget",
+			"darkre",
+			"header",
+			"h1",
+			"container",
+			"max_w",
+			"box-sizing",
+			"background",
+			"body",
+			"clear",
+			"color",
+			"ul",
 			"font-family",
 			"default",
 			"psign",
@@ -297,8 +452,389 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/sass/style.scss",
+					"settings":
+					{
+						"buffer_size": 18778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16698,
+								16286
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 10511.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/sass/typeplate.scss",
+					"settings":
+					{
+						"buffer_size": 17126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7147,
+								7158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2756.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/header.php",
+					"settings":
+					{
+						"buffer_size": 2151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								863,
+								863
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 28.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/functions.php",
+					"settings":
+					{
+						"buffer_size": 9858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3875,
+								3875
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1294.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/sass/_normalize.scss",
+					"settings":
+					{
+						"buffer_size": 9303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8264,
+								8264
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 835.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/footer.php",
+					"settings":
+					{
+						"buffer_size": 2441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2401,
+								2401
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/sidebar.php",
+					"settings":
+					{
+						"buffer_size": 937,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/frontpage.php",
+					"settings":
+					{
+						"buffer_size": 781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								781,
+								92
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/no-results.php",
+					"settings":
+					{
+						"buffer_size": 1179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								948,
+								948
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/searchform.php",
+					"settings":
+					{
+						"buffer_size": 704,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								507,
+								507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/404.php",
+					"settings":
+					{
+						"buffer_size": 1597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								700,
+								716
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/content.php",
+					"settings":
+					{
+						"buffer_size": 2596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1954,
+								1954
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/content-single.php",
+					"settings":
+					{
+						"buffer_size": 2200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2020,
+								2020
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/archive.php",
+					"settings":
+					{
+						"buffer_size": 3239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

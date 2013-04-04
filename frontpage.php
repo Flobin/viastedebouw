@@ -9,7 +9,13 @@ get_header(); ?>
 
 		<div id="frontpage-top" class="widget-area">
 			<?php if ( ! dynamic_sidebar( 'frontpage-top' ) ) : ?>
-				<p>nothing</p>
+
+			<?php endif; ?>
+		</div>
+
+		<div id="frontpage-side" class="widget-area">
+			<?php if ( ! dynamic_sidebar( 'frontpage-side' ) ) : ?>
+
 			<?php endif; ?>
 		</div>
 
@@ -26,12 +32,6 @@ get_header(); ?>
 
 			</div><!-- #content .site-content -->
 		</div><!-- #primary .content-area -->
-
-		<div id="frontpage-bottom" class="widget-area">
-			<?php if ( ! dynamic_sidebar( 'frontpage-bottom' ) ) : ?>
-				<p>nothing</p>
-			<?php endif; ?>
-		</div>
 
 
 <?php get_footer(); ?>

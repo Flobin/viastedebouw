@@ -7,7 +7,7 @@
  */
 ?>
 	<form method="get" id="searchform" class="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
-		<label for="s" class="assistive-text"><?php _ex( 'Search', 'assistive text', 'viastedebouw' ); ?></label>
-		<input type="search" class="field" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" id="s" placeholder="<?php echo esc_attr_x( 'Search &hellip;', 'placeholder', 'viastedebouw' ); ?>" />
-		<input type="submit" class="submit" id="searchsubmit" value="<?php echo esc_attr_x( 'Search', 'submit button', 'viastedebouw' ); ?>" />
+		<label for="s" class="assistive-text"><?php _ex( 'Zoek', 'assistive text', 'viastedebouw' ); ?></label>
+		<input type="search" class="field" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" id="s" placeholder="<?php echo esc_attr_x( 'Zoek &hellip;', 'placeholder', 'viastedebouw' ); ?>" />
+		<input type="submit" class="submit" id="searchsubmit" value="<?php echo esc_attr_x( 'Zoek', 'submit button', 'viastedebouw' ); ?>" />
 	</form>
