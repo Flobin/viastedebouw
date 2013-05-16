@@ -33,5 +33,11 @@ get_header(); ?>
 			</div><!-- #content .site-content -->
 		</div><!-- #primary .content-area -->
 
+		<div id="frontpage-bottom" class="widget-area">
+			<?php if ( ! dynamic_sidebar( 'frontpage-bottom' ) ) : ?>
+
+			<?php endif; ?>
+		</div>
+
 
 <?php get_footer(); ?>

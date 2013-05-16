@@ -25,7 +25,6 @@ and Blueprint http://www.blueprintcss.org/
 @import "normalize";
 @import "typeplate";
 @import url(http://fonts.googleapis.com/css?family=Cabin:400,700,400italic,700italic|Cabin+Condensed:400,700);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700|Open+Sans:300italic,400italic,700italic,400,300,700);
 
 /* =SCSS variables
 -------------------------------------------------------------- */
@@ -76,6 +75,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: $condensed;
 	font-weight: 300;
 	clear: both;
+	//text-transform: uppercase;
 }
 hr {
 	background-color: #ccc;
@@ -189,30 +189,19 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid #ccc;
-	border-color: #ccc #ccc #bbb #ccc;
-	border-radius: 3px;
-	background: #e6e6e6;
-	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), inset 0 15px 17px rgba(255,255,255,0.5), inset 0 -5px 12px rgba(0,0,0,0.05);
-	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), inset 0 15px 17px rgba(255,255,255,0.5), inset 0 -5px 12px rgba(0,0,0,0.05);
-	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), inset 0 15px 17px rgba(255,255,255,0.5), inset 0 -5px 12px rgba(0,0,0,0.05);
-	color: rgba(0,0,0,.8);
+	background: $viared;
 	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
 	-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
-	font-size: 12px;
-	font-size: 1.2rem;
 	line-height: 1;
-	padding: .6em 1em .4em;
-	text-shadow: 0 1px 0 rgba(255,255,255,.8);
+	padding: .5em 1em .5em;
+	border: none;
+	color: #fff;
 }
 button:hover,
 html input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa #bbb;
-	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.8), inset 0 15px 17px rgba(255,255,255,0.8), inset 0 -5px 12px rgba(0,0,0,0.02);
-	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.8), inset 0 15px 17px rgba(255,255,255,0.8), inset 0 -5px 12px rgba(0,0,0,0.02);
-	box-shadow: inset 0 1px 0 rgba(255,255,255,0.8), inset 0 15px 17px rgba(255,255,255,0.8), inset 0 -5px 12px rgba(0,0,0,0.02);
+	background-color: lighten($viared, 20%);
 }
 button:focus,
 html input[type="button"]:focus,
@@ -222,10 +211,7 @@ button:active,
 html input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-	border-color: #aaa #bbb #bbb #bbb;
-	-webkit-box-shadow: inset 0 -1px 0 rgba(255,255,255,0.5), inset 0 2px 5px rgba(0,0,0,0.15);
-	-moz-box-shadow: inset 0 -1px 0 rgba(255,255,255,0.5), inset 0 2px 5px rgba(0,0,0,0.15);
-	box-shadow: inset 0 -1px 0 rgba(255,255,255,0.5), inset 0 2px 5px rgba(0,0,0,0.15);
+	
 }
 input[type="checkbox"],
 input[type="radio"] {
@@ -253,7 +239,6 @@ input[type="search"],
 textarea {
 	color: #666;
 	border: 1px solid #ccc;
-	border-radius: 3px;
 }
 input[type="text"]:focus,
 input[type="email"]:focus,
@@ -274,7 +259,19 @@ textarea {
 	vertical-align: top; /* Improves readability and alignment in all browsers */
 	width: 98%;
 }
-
+input[type=text], input[type=email], input[type=password], input[type=search], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, input[type=search]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(237, 26, 33, 1);
+  border: 1px solid rgba(237, 26, 33, 1);
+}
 /* Links */
 a {
 	color: $viared;
@@ -305,6 +302,18 @@ a:active {
 	clear: both;
 	display: block;
 	margin: 0 auto;
+}
+
+::-moz-selection {
+    background: $viared;
+    text-shadow: none;
+    color: #fff;
+}
+
+::selection {
+    background: $viared;
+    text-shadow: none;
+    color: #fff;
 }
 
 /* Text meant only for screen readers */
@@ -389,7 +398,7 @@ h2.site-description {
 }
 .navigation-main ul ul a:hover {
 }
-.navigation-main ul li:hover > ul {
+.navigation-main ul li:hover > ul, ul.nav-menu.toggled-on ul {
 	display: block;
 }
 .navigation-main li.current_page_item a,
@@ -578,14 +587,20 @@ object {
 /* Search widget */
 .widget_search .submit {
 	/*display: none;*/
+	color: #fff;
+	background-color: $viared;
+	padding: 0.5rem;
+	margin: 0.5rem auto;
 }
 
 input[type="search"], #s {
-	margin: 1rem;
+	margin-left: 1rem;
+	max-width: 100%;
 }
 
 .widget-title, .widget-title a {
 	font-family: $condensed;
+	//text-transform: uppercase;
 	font-weight: 300;
 	background-color: $viared;
 	color: #fff;
@@ -603,6 +618,10 @@ input[type="search"], #s {
 }
 
 /* twitter */
+.twitter-timeline {
+	padding: 1rem;
+}
+
 ul.tweets {
 	li {
 		margin: 0.5rem 0;
@@ -613,6 +632,10 @@ ul.tweets {
 }
 iframe.twitter-follow-button, span.label, #l {
 	margin: 0 1rem 1rem 1rem!important;
+}
+
+#frontpage-bottom aside ul {
+	padding: 1rem;
 }
 
 
@@ -633,17 +656,29 @@ iframe.twitter-follow-button, span.label, #l {
 	display: block;
 }
 
-/* =box
+/* =Event plugin
 ----------------------------------------------- */
+.ai1ec-event-title {
+	overflow-x: hidden;
+}
 
 /* =layout-all
 ----------------------------------------------- */
 footer#colophon {
+	display: block;
 	margin-bottom: 1rem!important;
 	img.sponsor {
 		height: auto;
 		float: left;
-
+		display: inline-block;
+	}
+	h3 {
+		font: normal 100%/1.5 sans-serif;
+		font-family: $regular;
+	}
+	.credits {
+		font-size: 0.67rem;
+		margin-top: 1rem;
 	}
 }
 
@@ -654,43 +689,49 @@ footer#colophon {
 	body {
 		padding: 1rem;
 	}
-					.header-text {
-						h1 {
-							font-size: 2.5rem;
-						}
-						h2 {
-							font-size: 2rem;
-						}
-					}
-				#primary {
-					padding: 0 1rem;
+		img#logo {
+			width: 50%;
+			height: auto;
+		}
+		.header-text {
+			padding: 1rem;
+			h1 {
+				font-size: 2.5rem;
+			}
+			h2 {
+				font-size: 2rem;
+			}
+		}
+		#primary {
+			padding: 0 1rem;
+		}
+		#secondary {
+			@include column(12);
+			margin-bottom: 1rem;
+		}
+		#frontpage-side {
+			aside {
+				margin-bottom: 2rem;
+				h2.widget-title {
+					font-size: 2rem;
 				}
-				#secondary {
-					@include column(12);
-					margin-bottom: 1rem;
-				}
-				#frontpage-side {
-					aside {
-						margin-bottom: 2rem;
-						h2.widget-title {
-							font-size: 2rem;
-						}
-					}
-				}
-				footer#colophon {
-					p {
-						font-family: $condensed;
-						font-weight: 300;
-						background-color: $viared;
-						color: #fff;
-						padding: 1rem;
-						font-size: 2rem;				
-					}
-					img.sponsor {
-						width: 98%;
-						margin: 0.5rem auto;
-					}
-				}
+			}
+		}
+		footer#colophon {
+			h3 {
+				font-family: $condensed;
+				//text-transform: uppercase;
+				font-weight: 300;
+				background-color: $viared;
+				color: #fff;
+				padding: 1rem;
+				font-size: 2rem;				
+			}
+			img.sponsor {
+				width: 98%;
+				margin: 0.5rem auto;
+			}
+		}
 }
 
 @media only screen and (max-width: 768px) {
@@ -718,7 +759,7 @@ footer#colophon {
 					overflow: auto;
 					margin-bottom: 1rem;
 					img {
-						width: 47.91667%%;
+						width: 31.25%;
 						height: auto;
 						float: left;
 						/*@include column(2);
@@ -727,7 +768,7 @@ footer#colophon {
 					.header-text {
 						float: right;
 						margin-left: 1.04167%;
-						width: 47.91667%%;
+						width: 64.58333%;
 						h1 {
 							font-size: 4rem;
 						}
@@ -790,6 +831,9 @@ footer#colophon {
 					aside {
 						margin-bottom: 1rem!important;
 					}
+				}
+				#frontpage-bottom {
+					@include column(8);
 				}
 			footer#colophon {
 				@include column(12);
@@ -864,6 +908,11 @@ footer#colophon {
 					}
 				}
 				#frontpage-side {
+					aside {
+						@include box(#fff,0,0px,#ccc,0px,3px,3px,5px,0px,0.3);
+					}
+				}
+				#frontpage-bottom {
 					aside {
 						@include box(#fff,0,0px,#ccc,0px,3px,3px,5px,0px,0.3);
 					}
