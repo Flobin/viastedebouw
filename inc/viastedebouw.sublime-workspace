@@ -43,7 +43,7 @@
 			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 18428,
+				"buffer_size": 18735,
 				"line_ending": "Unix"
 			}
 		},
@@ -84,7 +84,7 @@
 			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/functions.php",
 			"settings":
 			{
-				"buffer_size": 9891,
+				"buffer_size": 10200,
 				"line_ending": "Unix"
 			}
 		},
@@ -116,7 +116,7 @@
 			"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/frontpage.php",
 			"settings":
 			{
-				"buffer_size": 781,
+				"buffer_size": 922,
 				"line_ending": "Unix"
 			}
 		},
@@ -326,6 +326,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"uppercase",
+			"condensed",
 			"logo",
 			"footer",
 			"81, 203, 238",
@@ -441,15 +443,15 @@
 					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 18428,
+						"buffer_size": 18735,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12858,
-								12858
+								17768,
+								17768
 							]
 						],
 						"settings":
@@ -458,7 +460,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8180.0,
+						"translation.y": 12167.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -575,15 +577,15 @@
 					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/functions.php",
 					"settings":
 					{
-						"buffer_size": 9891,
+						"buffer_size": 10200,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3488,
-								3488
+								4307,
+								4307
 							]
 						],
 						"settings":
@@ -592,7 +594,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1366.0,
+						"translation.y": 1534.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -685,15 +687,15 @@
 					"file": "/C/Program Files/EasyPHP-12.1/modules/wordpress321x120901153952/wp-content/themes/viastedebouw/frontpage.php",
 					"settings":
 					{
-						"buffer_size": 781,
+						"buffer_size": 922,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								380,
-								380
+								858,
+								858
 							]
 						],
 						"settings":

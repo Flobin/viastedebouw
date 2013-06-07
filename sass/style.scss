@@ -639,9 +639,26 @@ iframe.twitter-follow-button, span.label, #l {
 }
 
 
-/* =Slides
+/* =Calendar hack
 ----------------------------------------------- */
-
+.timely {
+	font-family: $regular!important;
+	* {
+		font-family: $regular!important;
+	}
+}
+.ai1ec-event-title {
+	overflow-x: hidden;
+}
+.ai1ec-pagination > .btn {
+	height: 25px!important;
+}
+.ai1ec-posterboard-view .ai1ec-event-title {
+	font-family: $condensed!important;
+	a:hover {
+		color: #fff!important;
+	}
+}
 
 /* =Infinite Scroll
 ----------------------------------------------- */
@@ -654,12 +671,6 @@ iframe.twitter-follow-button, span.label, #l {
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
 .infinity-end.neverending .site-footer {
 	display: block;
-}
-
-/* =Event plugin
------------------------------------------------ */
-.ai1ec-event-title {
-	overflow-x: hidden;
 }
 
 /* =layout-all
@@ -709,7 +720,11 @@ footer#colophon {
 			@include column(12);
 			margin-bottom: 1rem;
 		}
+		#frontpage-top {
+			margin-bottom: 1rem;
+		}
 		#frontpage-side {
+			display: none;
 			aside {
 				margin-bottom: 2rem;
 				h2.widget-title {
