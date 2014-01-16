@@ -855,7 +855,7 @@ footer#colophon {
 				margin-bottom: 1rem;
 				padding: 1rem;
 				img.sponsor {
-					width: 31%;
+					width: 48%;
 					margin-right: 1%;
 					margin-left: 1%;
 				}
@@ -936,7 +936,7 @@ footer#colophon {
 				@include column(12);
 				@include box(#fff,1rem,0px,#ccc,0px,3px,3px,5px,0px,0.3);
 				img.sponsor {
-					width: 31%;
+					width: 18%;
 					margin: 0 1%;
 				}
 			}
