@@ -165,3 +165,6 @@ pip-log.txt
 # .sass-cache folder
 .sass-cache
 .sass-cache/
+node_modules
+node_modules/
+node_modules/*

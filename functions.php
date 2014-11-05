@@ -342,3 +342,47 @@ function viastedebouw_admin_header_image() { ?>
 	</div>
 <?php }
 endif; // viastedebouw_admin_header_image
+
+// Register Custom Post Type
+function graduate_passport() {
+
+	$labels = array(
+		'name'                => _x( 'Graduate Passports', 'Post Type General Name', 'viastedebouw' ),
+		'singular_name'       => _x( 'Graduate Passport', 'Post Type Singular Name', 'viastedebouw' ),
+		'menu_name'           => __( 'Graduate Passport', 'viastedebouw' ),
+		'parent_item_colon'   => __( 'Hoofd:', 'viastedebouw' ),
+		'all_items'           => __( 'Alle Graduate Passports', 'viastedebouw' ),
+		'view_item'           => __( 'Graduate Passport Bekijken', 'viastedebouw' ),
+		'add_new_item'        => __( 'Nieuw Graduate Passport', 'viastedebouw' ),
+		'add_new'             => __( 'Nieuw', 'viastedebouw' ),
+		'edit_item'           => __( 'Graduate Passport Bewerken', 'viastedebouw' ),
+		'update_item'         => __( 'Graduate Passport Bijwerken', 'viastedebouw' ),
+		'search_items'        => __( 'Graduate Passports Doorzoeken', 'viastedebouw' ),
+		'not_found'           => __( 'Niet Gevonden', 'viastedebouw' ),
+		'not_found_in_trash'  => __( 'Niet Gevonden in Prullenbak', 'viastedebouw' ),
+	);
+	$args = array(
+		'label'               => __( 'graduate_passport', 'viastedebouw' ),
+		'description'         => __( 'Post Type Description', 'viastedebouw' ),
+		'labels'              => $labels,
+		'supports'            => array( 'title', 'editor', 'thumbnail', 'revisions', 'custom-fields', ),
+		'taxonomies'          => array( 'tag' ),
+		'hierarchical'        => false,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_nav_menus'   => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => 5,
+		'can_export'          => true,
+		'has_archive'         => true,
+		'exclude_from_search' => false,
+		'publicly_queryable'  => true,
+		'capability_type'     => 'post',
+	);
+	register_post_type( 'graduate_passport', $args );
+
+}
+
+// Hook into the 'init' action
+add_action( 'init', 'graduate_passport', 0 );
