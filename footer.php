@@ -21,7 +21,6 @@
 			<a href="http://www.burolubbers.nl/" title="buro lubbers"><img class="sponsor" src="<?php bloginfo('template_directory') ?>/img/build/burolubbers.jpg" alt="buro lubbers" title="buro lubbers" /></a>
 			<a href="http://www.atelierdutch.nl/" title="atelier dutch"><img class="sponsor" src="<?php bloginfo('template_directory') ?>/img/build/atelierdutch.png" alt="atelier dutch" title="atelier dutch" /></a>
 			<a href="http://www.bouwkundebedrijvendagen.nl/" title="bouwkunde bedrijvendagen"><img class="sponsor" src="<?php bloginfo('template_directory') ?>/img/build/bouwkundebedrijvendagen.png" alt="bouwkunde bedrijvendagen" title="bouwkunde bedrijvendagen" /></a>
-			<span class="credits">website door <a href="http://robinberghuijs.com">Robin Berghuijs</a></span>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon .site-footer -->
 </div><!-- #page .hfeed .site -->
