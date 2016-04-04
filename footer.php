@@ -19,7 +19,7 @@
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'viastedebouw' ), 'viastedebouw', '<a href="http://robinberghuijs.com" rel="designer">Robin Berghuijs</a>' ); ?>-->
 			<h3>VIA wordt gesponsord door:</h3>
 			<a href="http://www.burolubbers.nl/" title="buro lubbers"><img class="sponsor" src="<?php bloginfo('template_directory') ?>/img/build/burolubbers.jpg" alt="buro lubbers" title="buro lubbers" /></a>
-			<a href="http://www.atelierdutch.nl/" title="atelier dutch"><img class="sponsor" src="<?php bloginfo('template_directory') ?>/img/build/atelierdutch.png" alt="atelier dutch" title="atelier dutch" /></a>
+			<a href="http://www.vectorworks.nl/?utm_source=viavia&utm_medium=website&utm_campaign=viavia_sponsoring_tu-eindhoven" title="logoVectorworks2016png"><img class="sponsor" src="<?php bloginfo('template_directory') ?>/img/build/logoVectorworks2016.png" alt="logoVectorworks2016" title="logoVectorworks2016png"/></a>
 			<a href="http://www.bouwkundebedrijvendagen.nl/" title="bouwkunde bedrijvendagen"><img class="sponsor" src="<?php bloginfo('template_directory') ?>/img/build/bouwkundebedrijvendagen.png" alt="bouwkunde bedrijvendagen" title="bouwkunde bedrijvendagen" /></a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon .site-footer -->
