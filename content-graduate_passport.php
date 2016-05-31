@@ -12,23 +12,38 @@
 				the_post_thumbnail(array(300,300));
 			}
 		?></div>
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<h1 class="entry-title graduate-name"><?php the_title(); ?></h1>
 	</header><!-- .entry-header -->
 
 	<section class="entry-content">
-		<?php the_content(); ?>
 		<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'viastedebouw' ), 'after' => '</div>' ) ); ?>
 	</section><!-- .entry-content -->
     <section class="entry-content">
         <hr>
         <table class="graduate-passport-table">
             <tr>
-                <td>Afstudeeronderwerp</td>
+                <td class="left">Profielschets</td>
+                <td><?php the_field('profielschets'); ?></td>
+            </tr>
+            <tr>
+                <td class="left">Afstudeeronderwerp</td>
                 <td><?php the_field('afstudeeronderwerp'); ?></td>
             </tr>
             <tr>
-                <td>Link</td>
-                <td><a href="<?php the_field('link'); ?>"><?php the_field('link_titel'); ?></a></td>
+                <td class="left">Afstudeerverslag</td>
+                <td><?php the_field('afstudeerverslag'); ?></td>
+            </tr>
+            <tr>
+                <td class="left">Status Quo</td>
+                <td><?php the_field('status_quo'); ?></td>
+            </tr>
+            <tr>
+                <td class="left">Website</td>
+                <td><?php the_field('website'); ?></td>
+            </tr>
+            <tr>
+                <td class="left">Linkedin</td>
+                <td><?php the_field('linkedin'); ?></td>
             </tr>
         </table>
     </section>

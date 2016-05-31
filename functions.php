@@ -155,7 +155,7 @@ add_action( 'widgets_init', 'viastedebouw_widgets_init' );
  * Enqueue scripts and styles
  */
 function viastedebouw_scripts() {
-	wp_enqueue_style( 'style', get_template_directory_uri().'/stylesheets/style.css' );
+	wp_enqueue_style( 'style', get_template_directory_uri().'/style.css' );
 
 	wp_enqueue_script( 'navigation', get_template_directory_uri() . '/js/navigation.js', null, '20120206', true );
 

@@ -30,8 +30,8 @@ and Blueprint http://www.blueprintcss.org/
 -------------------------------------------------------------- */
 $viared: #ED1A21; /*#F02311*/
 $darkred: #D90A0A;
-$regular: 'Humanist 521', 'Humanst521', "Gill Sans MT", "Gill Sans", 'Cabin', Verdana, Tahoma, sans-serif;
-$condensed: 'Humanist 521', 'Humanst521', "Gill Sans MT Condensed", "Gill Sans Condensed", 'Cabin Condensed',  sans-serif;
+$regular: 'Humanist 521', 'Humanst521', 'Gill Sans', 'Gill Sans MT', 'Cabin', Verdana, Tahoma, sans-serif;
+$condensed: 'Humanist 521', 'Humanst521', 'Gill Sans Condensed', 'Gill Sans MT Condensed', 'Gill Sans', 'Gill Sans MT', 'Cabin Condensed',  sans-serif;
 
 
 /* =SCSS mixins
@@ -663,19 +663,36 @@ iframe.twitter-follow-button, span.label, #l {
 
 /* =Graduate passport
 ----------------------------------------------- */
+.graduate_passport_list {
+    list-style-type: none;
+    li {
+        margin-top: 2rem;
+    }
+}
+.graduate-name {
+    display: inline-block;
+}
 .graduate-thumbnail {
-	float: left;
+    display: inline-block;
 	width: 25%;
 	max-width: 300px;
 	height: auto;
 	margin-right: 1em;
 	margin-bottom: 1em;
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 .graduate-passport-table {
-    font-size: 1.2rem;
+    //font-size: 1.2rem;
     width: 100%;
     td {
-        padding-bottom: 0.5rem;
+        padding-bottom: 1.5rem;
+        vertical-align:top;
+    }
+    .left {
+        padding-right: 1.5rem;
     }
 }
 
