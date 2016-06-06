@@ -665,8 +665,24 @@ iframe.twitter-follow-button, span.label, #l {
 ----------------------------------------------- */
 .graduate_passport_list {
     list-style-type: none;
+    margin-top: 2rem;
     li {
-        margin-top: 2rem;
+        margin-bottom: 2rem;
+        clear: both;
+        min-height: 100px;
+        a:hover {
+            background: none;
+            h2 {
+                color: $viared;
+            }
+        }
+        img {
+            display: inline-block;
+            margin-right: 1em;
+        }
+        h2 {
+            display: inline-block;
+        }
     }
 }
 .graduate-name {

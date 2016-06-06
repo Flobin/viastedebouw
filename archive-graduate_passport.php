@@ -27,7 +27,12 @@ get_header(); ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
                     <li>
-    					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                        <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+                            <?php if ( has_post_thumbnail() ) : ?>
+                                <?php the_post_thumbnail( array(100, 100) ); ?>
+                            <?php endif; ?>
+                            <h2><?php the_title(); ?></h2>
+                        </a>
                     </li>
 
 				<?php endwhile; ?>
