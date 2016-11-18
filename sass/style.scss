@@ -642,15 +642,6 @@ iframe.twitter-follow-button, span.label, #l {
 
 /* =Calendar hack
 ----------------------------------------------- */
-.timely {
-	font-family: $regular!important;
-	* {
-		font-family: $regular!important;
-	}
-}
-.ai1ec-fa {
-    font-family: Timely_FontAwesome!important;
-}
 .ai1ec-event-title {
 	overflow-x: hidden;
 }
@@ -865,6 +856,16 @@ footer#colophon {
 						}
 					}
 				}
+                #menu-hoofdmenu .menu-item a, #site-navigation .menu-item a {
+                    padding: 1rem;
+                    display: inline-block;
+                    &:hover {
+                        color: #fff!important;
+                        background-color: $viared;
+                    }
+                    &:visited {
+                        color: $viared;
+                }
 			#main {
 
 			}
