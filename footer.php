@@ -20,7 +20,8 @@
 			<h3>VIA wordt gesponsord door:</h3>
 			<a href="http://www.burolubbers.nl/" title="buro lubbers"><img class="sponsor" src="<?php bloginfo('template_directory') ?>/img/build/burolubbers.jpg" alt="buro lubbers" title="buro lubbers" /></a>
 			<a href="http://www.vectorworks.nl/?utm_source=viavia&utm_medium=website&utm_campaign=viavia_sponsoring_tu-eindhoven" title="logoVectorworks2016png"><img class="sponsor" src="<?php bloginfo('template_directory') ?>/img/build/logoVectorworks2016.png" alt="logoVectorworks2016" title="logoVectorworks2016png"/></a>
-			<a href="http://www.bouwkundebedrijvendagen.nl/" title="bouwkunde bedrijvendagen"><img class="sponsor" src="<?php bloginfo('template_directory') ?>/img/build/bouwkundebedrijvendagen.png" alt="bouwkunde bedrijvendagen" title="bouwkunde bedrijvendagen" /></a>
+			<a href="http://www.bouwkundebedrijvendagen.nl/" title="bouwkunde bedrijvendagen"><img class="sponsor" src="<?php bloginfo('template_directory') ?>/img/build/bbd.png" alt="bouwkunde bedrijvendagen" title="bouwkunde bedrijvendagen" /></a>
+            <a href="http://posad.nl/" title="posad"><img class="sponsor" src="<?php bloginfo('template_directory') ?>/img/build/posad.png" alt="posad logo" title="posad" /></a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon .site-footer -->
 </div><!-- #page .hfeed .site -->
